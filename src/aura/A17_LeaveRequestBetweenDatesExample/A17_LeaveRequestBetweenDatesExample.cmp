@@ -1,0 +1,12 @@
+<!--
+ - Created by sebastiankubalski on 10/07/2017.
+ -->
+
+<aura:component description="A17_LeaveRequestBetweenDatesExample">
+    <aura:registerEvent name="A17_DoLeaveRequestBetweenDates" type="c:A17_DoLeaveRequestBetweenDates"/>
+    <aura:registerEvent name="A17_LeaveRequestExampleCloseSecondStep" type="c:A17_LeaveRequestExampleCloseSecondStep"/>
+
+    <lightning:input type="date" label="Start Date" name="startDate" aura:id="startDate"/>
+    <lightning:input type="date" label="End Date" name="endDate" aura:id="endDate"/>
+    <lightning:button label="Submit" onclick="{!c.onSubmit}"/>
+</aura:component>

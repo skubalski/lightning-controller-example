@@ -1,0 +1,11 @@
+<!--
+ - Created by sebastiankubalski on 10/07/2017.
+ -->
+
+<aura:component description="A17_LeaveRequestsByUserExample">
+    <aura:registerEvent name="A17_DoLeaveRequestsByUser" type="c:A17_DoLeaveRequestsByUser"/>
+    <aura:registerEvent name="A17_LeaveRequestExampleCloseSecondStep" type="c:A17_LeaveRequestExampleCloseSecondStep"/>
+
+    <lightning:input type="text" aura:id="userId" label="User Id" name="userId"/>
+    <lightning:button label="Submit" onclick="{!c.onSubmit}"/>
+</aura:component>

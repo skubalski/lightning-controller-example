@@ -1,0 +1,11 @@
+<!--
+ - Created by sebastiankubalski on 10/07/2017.
+ -->
+
+<aura:component description="A17_UsersByRemainingDaysExample">
+    <aura:registerEvent name="A17_DoUsersByRemainingDays" type="c:A17_DoUsersByRemainingDays"/>
+    <aura:registerEvent name="A17_LeaveRequestExampleCloseSecondStep" type="c:A17_LeaveRequestExampleCloseSecondStep"/>
+
+    <lightning:input type="number" name="numberOfDays" label="Number of days" aura:id="numberOfDays"/>
+    <lightning:button label="Submit" onclick="{!c.onSubmit}"/>
+</aura:component>

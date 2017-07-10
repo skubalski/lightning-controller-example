@@ -1,0 +1,8 @@
+<!--
+ - Created by sebastiankubalski on 10/07/2017.
+ -->
+
+<aura:event type="COMPONENT" description="A17_DoLeaveRequestBetweenDates">
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="endDate" type="Date"/>
+</aura:event>
